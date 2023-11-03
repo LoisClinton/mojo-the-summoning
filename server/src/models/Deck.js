@@ -9,7 +9,7 @@ Deck.init(
   },
   {
     sequelize: db,
-    modelName: "deck",
+    modelName: "Deck",
   }
 );
 

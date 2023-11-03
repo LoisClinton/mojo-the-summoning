@@ -7,15 +7,16 @@ let card;
 
 
 beforeAll(async () => {
-  await db.sync({ force: true });
-  card = await Card.create({ name: "gandalf" });
+    console.log('cat');
+    //await db.sync({ force: true });
+    card = await Card.create({ name: "gandalf" });
 });
 
 
 afterAll(async () => await db.sync({ force: true }));
 
 describe("Card", () => {
-    it("has an id", async () => {
+    test("has an id", async () => {
         expect(card).toHaveProperty("id");
     });
     test("Create Card", async () => {

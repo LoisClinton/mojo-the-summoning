@@ -8,9 +8,10 @@ User.init(
     username: DataTypes.STRING,
   },
   {
-    sequalize: db,
-    modelName: "user",
-  }
+    sequelize: db,
+    modelName: "User",
+  },
+  { freezeTableName: true }
 );
 
 module.exports = User;
