@@ -14,4 +14,5 @@ User.init(
   { freezeTableName: true }
 );
 
-module.exports = User;
+console.log(User);
+module.exports = {User};

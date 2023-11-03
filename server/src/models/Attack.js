@@ -11,4 +11,4 @@ Attack.init({
   modelName: "Attack",
 })
 
-module.exports = Attack;
+module.exports = {Attack};

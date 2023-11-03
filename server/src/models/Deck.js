@@ -14,4 +14,4 @@ Deck.init(
 );
 
 console.log(new Deck());
-module.exports = Deck;
+module.exports = {Deck};
