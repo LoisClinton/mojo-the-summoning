@@ -9,7 +9,7 @@ Card.init({
   imgUrl: DataTypes.STRING,
 }, {
   sequelize: db,
-  modelName: "Product",
+  modelName: "Card",
 })
 
-module.exports = Card;
+module.exports = {Card};

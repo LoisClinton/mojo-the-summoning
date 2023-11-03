@@ -1,7 +1,7 @@
-const { User } = require("./User");
-const { Attack } = require("./Attack");
-const { Deck } = require("./Deck");
-const { Card } = require("./Card");
+const { User } = require("./User.js");
+const { Attack } = require("./Attack.js");
+const { Deck } = require("./Deck.js");
+const { Card } = require("./Card.js");
 // import the rest of your models above
 
 //set up the associations here

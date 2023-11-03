@@ -9,9 +9,9 @@ Deck.init(
   },
   {
     sequelize: db,
-    modelName: "deck",
+    modelName: "Deck",
   }
 );
 
 console.log(new Deck());
-module.exports = Deck;
+module.exports = {Deck};
