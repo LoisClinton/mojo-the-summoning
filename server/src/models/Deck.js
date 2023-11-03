@@ -1,4 +1,4 @@
-const { db, DataTypes, Model } = require("./db.js");
+const { db, DataTypes, Model } = require("../db/config.js");
 
 class Deck extends Model {}
 
