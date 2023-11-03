@@ -1,5 +1,5 @@
 // create your User model here
-const { db, DataTypes, Model } = require("./db.js");
+const { db, DataTypes, Model } = require("../db/config.js");
 
 class User extends Model {}
 
