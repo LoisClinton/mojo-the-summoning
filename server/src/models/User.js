@@ -8,7 +8,7 @@ User.init(
     username: DataTypes.STRING,
   },
   {
-    sequalize: db,
+    sequelize: db,
     modelName: "user",
   }
 );

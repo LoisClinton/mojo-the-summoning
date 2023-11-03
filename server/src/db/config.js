@@ -1,6 +1,6 @@
 // add your database connection here
-const path = require("path");
 const { Sequelize, DataTypes, Model } = require("sequelize");
+const path = require("path");
 
 const db = new Sequelize({
   dialect: "sqlite",
